@@ -4,7 +4,7 @@ from django.conf import settings
 from django.utils import timezone
 import datetime
 
-food_kinds = (('colazione','colazione'), ('pranzo','pranzo'), ('cena','cena'), ('da bere','da bere'))
+food_kinds = (('colazione','colazione'), ('pranzo','pranzo'), ('cena','cena'))
 Today = datetime.datetime.now().date()
 
 
